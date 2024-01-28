@@ -2,9 +2,9 @@ import Navbar from "./../components/navbar.js"
 import Image from "next/image";
 import Link from "next/link";
 import img1 from './../../../public/project1.png'
-import mp1 from './../../../public/1.jpg'
-import mp2 from './../../../public/2.jpg'
-import mp3 from './../../../public/3.jpg'
+import mp1 from './../../../public/1.JPG'
+import mp2 from './../../../public/2.JPG'
+import mp3 from './../../../public/3.JPG'
 import mp4 from './../../../public/4.png'
 import { Poppins,Inter } from "next/font/google"
 
