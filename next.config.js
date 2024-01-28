@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output:"export",
+    output: 'export',
     rewrites: async () => [
       {
         source: "/projects/analog-clock",
@@ -21,4 +21,4 @@ const nextConfig = {
     ],
 };
 
-module.export = nextConfig;
+module.exports = nextConfig
