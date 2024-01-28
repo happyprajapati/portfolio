@@ -1,0 +1,60 @@
+"use client"
+
+import Image from "next/image";
+import cursor from "./components/cursor.js"
+import Navbar from "./components/navbar.js"
+import { Lobster,Play } from "next/font/google"
+import profile from '../../public/happy.jpg'
+import { useState, useEffect } from 'react'
+
+const lobster = Lobster({
+  weight:'400',
+  subsets:['latin']
+})
+
+const play = Play({
+  weight:'400',
+  subsets:['latin']
+})
+
+export default function Home() {
+
+  const [width, setWidth]   = useState(window.innerWidth);
+const [height, setHeight] = useState(window.innerHeight);
+const updateDimensions = () => {
+    setWidth(window.innerWidth);
+    setHeight(window.innerHeight);
+}
+useEffect(() => {
+    window.addEventListener("resize", updateDimensions);
+    return () => window.removeEventListener("resize", updateDimensions);
+}, []);
+
+  return (
+    <main className="flex min-h-screen p-5">
+      <cursor />
+      <Navbar dimension={width,height} />
+      {/* <div className={width<991?'hidden':null}> */}
+      {/* </div> */}
+      <div className={width<991?'mx-10 my-auto':'mt-12 mr-12'}>
+        <p className={lobster.className}>
+          <h1 className={`py-10 ${width<767 ? 'text-5xl' : 'text-6xl'}`}>Happy Prajapati</h1>
+        </p>
+        <div className={play.className}>
+          <p className={`my-5 ${width<767? 'text-2xl' : 'text-3xl'}`}>A passionate MERN & full stack Developer with the goal to create delightful experience.</p>
+          <p className={`my-5 ${width<767? 'text-xl' : 'text-2xl'}`}>Welcome to my portfolio.</p>
+          <button className={`mt-2 p-2 px-8 text-white bg-black rounded-full ${width<767 ? 'text-xl' : 'text-2xl'}`}>Resume</button>
+        </div>
+      </div>
+      <div className={width<767?'hidden':'my-12 mr-5'}>
+        <Image className=" rounded-full" src={profile}
+        width={600}
+        height={600} />
+      </div>
+      
+      <div className="md:hidden">
+        <p> hello world</p>
+      </div>
+    </main>
+  );
+}
