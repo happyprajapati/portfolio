@@ -4,7 +4,7 @@ import Image from "next/image";
 // import cursor from "./components/cursor.js"
 import Navbar from "./components/navbar.js"
 import { Lobster,Play } from "next/font/google"
-import avatar from './../../public/avtar.png'
+import avatar from './../../public/avatar.png'
 
 const lobster = Lobster({
   weight:'400',

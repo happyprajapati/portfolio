@@ -1,8 +1,8 @@
-import Navbar from "./components/navbar.js"
+import Navbar from "../components/navbar.js"
 import Image from "next/image";
 import Link from "next/link";
 import { Poppins,Lobster,Inter } from "next/font/google"
-import img1 from './../../public/img1.jpg'
+import img1 from './../../../public/img1.jpg'
 // import img2 from './../../../public/img2.png'
 
 const poppins = Poppins({
