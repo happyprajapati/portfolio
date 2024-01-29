@@ -38,7 +38,7 @@ export default function Projects() {
                         <div className="flex flex-raw max-sm:flex-col">
                             <div className="mx-5">
                                 <p className="mb-2 mx-auto">Parallax Scrolling</p>
-                                <Link href="/projects/parallax-scrolling">
+                                <Link href="https://happyprajapati.github.io/mini-projects/Parallax-Scrolling/index.html">
                                     <Image src={mp1}
                                     width={580}
                                     height={300}
@@ -47,7 +47,7 @@ export default function Projects() {
                             </div>
                             <div className="mx-5">
                                 <p className="mb-2 mx-auto">Analog Clock</p>
-                                <Link href="/projects/analog-clock">
+                                <Link href="https://happyprajapati.github.io/mini-projects/Analog-Clock/index.html">
                                     <Image src={mp2}
                                     width={580}
                                     height={300}
@@ -60,7 +60,7 @@ export default function Projects() {
                         <div className="flex flex-raw max-sm:flex-col">
                             <div className="mx-5">
                                 <p className="mb-2 mx-auto">Calculator</p>
-                                <Link href="/projects/calculator">
+                                <Link href="/projects/https://happyprajapati.github.io/mini-projects/Calculator/index.html">
                                     <Image src={mp3}
                                     width={580}
                                     height={300}
@@ -69,7 +69,7 @@ export default function Projects() {
                             </div>
                             <div className="mx-5">
                                 <p className="mb-2 mx-auto">Digital Clock</p>
-                                <Link href="/projects/digital-clock">
+                                <Link href="https://happyprajapati.github.io/mini-projects/Digital-Clock/index.html">
                                     <Image src={mp4}
                                     width={580}
                                     height={300}
