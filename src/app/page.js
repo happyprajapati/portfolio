@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <>
     <Navbar />
-    <main className="flex my-5 p-5">
+    <main className="flex p-2">
       {/* <cursor /> */}
       <div className="my-auto ml-12 max-sm:mx-5">
         <p className={lobster.className}>
