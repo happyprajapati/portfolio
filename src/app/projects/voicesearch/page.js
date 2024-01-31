@@ -18,6 +18,7 @@ export default function VoiceSearch() {
             <div className={`${inter.className} mx-10 max-sm:mx                                     -5 flex justify-center flex-col`}>
                 <p className={`${poppins.className} text-4xl max-sm:text-3xl my-5 border-b border-black w-fit`}>voice search</p>
                 <div>
+                    <p className="text-xl max-sm:text-lg">Visit at : https://happyprajapati.github.io/voice-search/</p>
                     <p className={`${poppins.className} text-3xl my-5 max-sm:text-2xl border-b border-black w-fit`}>About</p>
                     <p className="text-xl max-sm:text-lg">Transforming the way we interact with technology, my Node.js-based Voice Search project is at the forefront of innovation. This project seamlessly integrates cutting-edge technologies to enable users to search and interact with applications using their voice.</p>
                     <p className={`${poppins.className} text-2xl my-5 max-sm:text-xl border-b border-black w-fit`}>Key Features</p>
