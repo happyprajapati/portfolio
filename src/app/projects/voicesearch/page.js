@@ -1,4 +1,5 @@
 import Navbar from "./../../components/navbar.js"
+import Link from "next/link";
 import { Poppins,Inter } from "next/font/google"
 
 const inter = Inter({
@@ -18,7 +19,7 @@ export default function VoiceSearch() {
             <div className={`${inter.className} mx-10 max-sm:mx                                     -5 flex justify-center flex-col`}>
                 <p className={`${poppins.className} text-4xl max-sm:text-3xl my-5 border-b border-black w-fit`}>voice search</p>
                 <div>
-                    <p className="text-xl max-sm:text-lg">Visit at : https://happyprajapati.github.io/voice-search/</p>
+                    <p className="text-2xl max-sm:text-xl border-b border-black w-fit"><Link href='https://happyprajapati.github.io/voice-search/'>Visit here</Link></p>
                     <p className={`${poppins.className} text-3xl my-5 max-sm:text-2xl border-b border-black w-fit`}>About</p>
                     <p className="text-xl max-sm:text-lg">Transforming the way we interact with technology, my Node.js-based Voice Search project is at the forefront of innovation. This project seamlessly integrates cutting-edge technologies to enable users to search and interact with applications using their voice.</p>
                     <p className={`${poppins.className} text-2xl my-5 max-sm:text-xl border-b border-black w-fit`}>Key Features</p>
@@ -30,8 +31,8 @@ export default function VoiceSearch() {
                     <p className="text-xl max-sm:text-lg">Incorporating advanced audio processing techniques, the system effectively captures, analyzes, and responds to voice inputs with precision.</p>
                     <p className={`${poppins.className} text-2xl my-5 max-sm:text-xl border-b border-black w-fit`}>Tech Stack</p>
                     <ul className="list-disc">
-                        <li className="text-xl ml-5 max-sm:text-lg">React js</li>
-                        <li className="text-xl ml-5 max-sm:text-lg">Node js</li>
+                        <li className="text-xl ml-5 max-sm:text-lg">React JS</li>
+                        <li className="text-xl ml-5 max-sm:text-lg">Node JS</li>
                         <li className="text-xl ml-5 max-sm:text-lg">Speech Recognition API</li>
                         <li className="text-xl ml-5 max-sm:text-lg">Google Bard API</li>
                     </ul>
