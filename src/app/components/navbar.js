@@ -17,6 +17,7 @@ export default function Navbar() {
                 <Image src={logo}
                 width={40}
                 height={40}
+                alt="logo"
                 />
             </Link>
         </div>

@@ -30,7 +30,7 @@ export default function About() {
                     <div className="text-xl max-sm:text-lg">
                         <p className="w-64 mb-2 max-md:w-auto">thanks for snapping a look. Let&apos;s get in touch!</p>
                         <p className="block flex justify-center"><Link className={`${poppins.className} font-bold border-r border-black pr-2`} href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new">Email</Link></p>
-                        <p className="block flex justify-center"><Link className={`${poppins.className} border-r border-black pr-2`} href="https://www.linkedin.com/in/happy-prajapati-b10a232aa/">Linked In</Link></p>
+                        <p className="block flex justify-center"><Link className={`${poppins.className} border-r border-black pr-2`} href="https://www.linkedin.com/in/HappyPrajapati">Linked In</Link></p>
                     </div>
                 </div>
                 {/* <div> */}
