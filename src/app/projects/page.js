@@ -60,7 +60,7 @@ export default function Projects() {
                         <div className="flex flex-raw max-sm:flex-col">
                             <div className="mx-5">
                                 <p className="mb-2 mx-auto">Calculator</p>
-                                <Link href="/projects/https://happyprajapati.github.io/mini-projects/Calculator/index.html">
+                                <Link href="https://happyprajapati.github.io/mini-projects/Calculator/index.html">
                                     <Image src={mp3}
                                     width={580}
                                     height={300}
