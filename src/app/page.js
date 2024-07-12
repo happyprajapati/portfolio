@@ -48,7 +48,6 @@ export default function Home() {
   return (
     <>
       <main className="flex p-2 h-screen">
-        {/* <cursor /> */}
         <div data-aos="fade-up" className="my-auto ml-12 max-sm:mx-5">
           <p className={lobster.className}>
             <h1 className="py-10 text-6xl capitalize max-sm:text-5xl ">
@@ -70,7 +69,7 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <div className="mx-8 max-md:hidden">
+        <div className="mx-8 max-md:hidden my-auto">
           <Image src={avatar} width={450} height={450} alt="avatar" />
         </div>
       </main>
@@ -111,7 +110,6 @@ export default function Home() {
             </p>
           </div>
         </div>
-        {/* <div> */}
         <div
           data-aos="fade-left"
           className="flex flex-1 flex-col justify-center items-center pt-5"
@@ -138,10 +136,6 @@ export default function Home() {
                 <p>Government Polytechnic, Ahmedabad</p>
                 <p>Diploma in Computer Engineering</p>
               </div>
-              {/* <div className="my-3">
-                                    <p>Bhagavati Vidhyalaya,Ahmedabad</p>
-                                    <p>10TH</p>
-                                </div> */}
             </div>
           </div>
         </div>
@@ -157,7 +151,7 @@ export default function Home() {
               my projects
             </h1>
           </div>
-          <div className="m-5 text-2xl max-sm:text-xl xl:mx-auto flex flex-col xl:items-center">
+          <div className="m-5 text-2xl max-sm:text-xl flex flex-col 2xl:items-center">
             <p className="my-2">1. voice search</p>
             <Link href="/projects/voicesearch">
               <Image src={voicesearch} />
