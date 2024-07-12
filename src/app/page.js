@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import Navbar from "./components/navbar.js";
 import { Poppins, Lobster, Inter, Play } from "next/font/google";
 import avatar from "./../../public/avatar.png";
 import img1 from "./../../public/img1.jpg";
@@ -48,7 +47,6 @@ export default function Home() {
 
   return (
     <>
-      <Navbar />
       <main className="flex p-2 h-screen">
         {/* <cursor /> */}
         <div data-aos="fade-up" className="my-auto ml-12 max-sm:mx-5">

@@ -1,4 +1,3 @@
-import Navbar from "./../../components/navbar.js"
 import Link from "next/link";
 import { Poppins,Inter } from "next/font/google"
 
@@ -15,7 +14,6 @@ const inter = Inter({
 export default function VoiceSearch() {
     return(
         <>
-        <Navbar />
             <div className={`${inter.className} mx-10 max-sm:mx-5 flex justify-center flex-col`}>
                 <p className={`${poppins.className} text-4xl max-sm:text-3xl my-5 border-b border-black w-fit`}>voice search</p>
                 <div>
