@@ -49,7 +49,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="flex p-2 h-screen border border-1 border-black">
+      <main className="flex p-2 h-screen">
         {/* <cursor /> */}
         <div data-aos="fade-up" className="my-auto ml-12 max-sm:mx-5">
           <p className={lobster.className}>

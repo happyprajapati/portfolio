@@ -11,7 +11,7 @@ export default function Navbar() {
   };
   return (
     <>
-      <div className="h-18 h-fit text-xl flex items-center justify-between border border-1 border-black">
+      <div className="h-18 h-fit text-xl flex items-center justify-between">
         <div className="mx-10 my-3 items-center">
           <Link href="/">
             <Image src={logo} width={40} height={40} alt="logo" />
